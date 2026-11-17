@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets (API keys live here, never in git)
+.env
+
+# Data and trained models (large, re-downloadable)
+data/
+checkpoints/
+*.mat
+*.pt
